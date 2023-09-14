@@ -1,0 +1,213 @@
+<doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	
+		<title>Multiple Column Web</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+		
+		<style type="text/css">
+			/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+			*/
+
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+				background-color: #093164;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+		
+			/*++++++WhiteSpace Styles Here+++++*/
+			
+			#wrapper{
+				width: 65%;
+				margin: auto;
+				padding: 1% 2%;
+				background-color: #FFF881;
+				color: #B4102D;
+				font-family: Open-sans;
+			}
+			article{
+				font-family: lora;
+			}
+			header,footer,nav{
+				font-family: roboto;
+			}
+			nav{
+				text-align:center;
+				padding-bottom: 1%;
+			}
+			h1{
+				font-size:600%;
+				text-align: center;	
+			}
+			h2{
+				font-size:150%;
+			}
+			h1,h2{
+				margin: 2% 0%;
+				font-weight: bold;
+				
+			}
+			p{
+				margin: 2% 0%;
+				letter-spacing: .5px;
+				line-height: 115%;
+			}
+		
+			#main-content{
+				width: 56%;
+				float: left;
+				padding: 2%:
+			}
+			#sidebar{
+				width: 36%;
+				float: left;
+				padding: 2%;
+			}
+			footer{
+				clear: left;
+			}
+			.nav-item{
+				display: inline-block;
+				margin-left: 2%;
+				background-color: yellow;
+			}
+			li.nav-item a:link{
+				color: red;
+			}
+			li.nav-item a:visited{
+				color: green;
+			}
+			li.nav-item a:hover{
+				color: white;
+			}
+			li.nav-item a:actve{
+				color: orange;
+			}
+			/*++++++Block Quotes++++++*/
+			blockquote{
+				font-size: 1.5em;
+				font-family: serif;
+				line-height: 1.5em;
+				margin: 4% 0% 4% 6%;
+				background-color: darkgray;
+				padding: 2%;
+				border-left: 10px solid black;
+				color: #eee;
+			}
+			blockquote:before{
+				vertical-align: -.35em;
+				line-height: 0;
+				content: "\201C";
+				font-size: 4em;
+			}
+			.Art{
+				padding: 3%;
+			}
+			figure{
+				width: 20%;
+				position: relative;
+				top: 50px
+			}
+			figure>img{
+				width:500%;
+			}
+			ul{
+				list-style-type: disc;
+				font-weight: bold;
+			}
+		</style>
+		
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Strongman</h1>
+			</header>
+			<nav>
+			<ul>
+				<li class="nav-item"><a href="index.html">Working Out</a></li>
+				<li class="nav-item"><a href="Page2.html">Bodybuilding</a></li>
+				<li class="nav-item"><a href="Page3.html">Powerlifting</a></li>
+				<li class="nav-item"><a href="Page4.html">Weightlifting</a></li>
+			</ul>
+			</nav>
+			<div id="main-content">
+				<article class="Art">
+					<h2> What is Strongman? </h2>
+					<p>
+						According to <a href="https://en.wikipedia.org/wiki/Strongman">Wikipedia</a>, the term strongman evolved to describe one who competes in strength athletics – a more modern eclectic strength competition in which competitors display their raw functional strength through exercises such as lifting rocks, toting refrigerators, pulling trains, towing an eighteen-wheel truck behind them, etc. The most famous competitions of this type are the World's Strongest Man, the Europe's Strongest Man, the Arnold Strongman Classic, the Strongman Champions League, the World's Ultimate Strongman, the Rogue Invitational and the Giants Live tour, and more than 20 countries also hold national-level competitions as well. Some winners of the World's Strongest Man are.
+					</p>
+					<ul>
+						<li> Mitchell Hooper (2023) </li>
+						<li> Tom Stoltman (2021-2022) </li>
+						<li> Oleksii Novikov (2020) </li>
+						<li> Martins Licis (2019) </li>
+						<li> Hafthor Julius Bjornsson (2018) </li>
+						<li> Eddie Hall (2017) </li>
+						<li> Brian Shaw (2015-2016) </li>
+					</ul>
+			</div><!--close main div-->
+			<div id="sidebar">
+				<article>
+					<h2> The Difficulties of Strongman </h2>
+					<p>
+						The sport of strongman has been around ever since 1977 leaving it to be the newest member of lifting sports. We no surprise, this sport has the fewest amount of people compared to the rest. You might think its because its a strength sport or becasue its the newest which absolutely plays a big role into why strongman isn't as sought after. But the main reason why strongman is hard to get into is because of the requirements. The constantly changing lifts every year for the strongman competitions makes its hard to keep up for the average person. This doesn't mean that if someone has the adequate equipment they can continue strongman professionally. The biggest factor is purely genetics when it comes to strongman which no one has control over. The changing lifts and the intensity of those lifts require really good genetics. For instance, the average height of strongman is 6ft 3 while being at 150kg. But thats just the average with many of those people never winning. A lot of the winners are way above 6ft 5 and some are even 6ft 8. The insane genetic lottery needed accompanied by the financial ability to afford equipment since many equipment aren't in gyms, make this sport the hardest sport in lifting history.
+					</p>
+				</article>
+			</div><!--close sidebar div-->
+			<footer>
+				<p><small>© Thomas Yang Codes</small></p>
+			</footer>
+		</div><!--close wrapper div--->
+	</body>
+</html>

@@ -1,0 +1,193 @@
+<doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	
+		<title>Multiple Column Web</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+		
+		<style type="text/css">
+			/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+			*/
+
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+				background-color: #093164;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+		
+			/*++++++WhiteSpace Styles Here+++++*/
+			
+			#wrapper{
+				width: 65%;
+				margin: auto;
+				padding: 1% 2%;
+				background-color: #FFF881;
+				color: #B4102D;
+				font-family: Open-sans;
+			}
+			article{
+				font-family: lora;
+			}
+			header,footer,nav{
+				font-family: roboto;
+			}
+			nav{
+				text-align:center;
+				padding-bottom: 1%;
+			}
+			h1{
+				font-size:600%;
+				text-align: center;	
+			}
+			h2{
+				font-size:150%;
+			}
+			h1,h2{
+				margin: 2% 0%;
+				font-weight: bold;
+			}
+			p{
+				margin: 2% 0%;
+				letter-spacing: .5px;
+				line-height: 115%;
+			}
+		
+			#main-content{
+				width: 56%;
+				float: left;
+				padding: 2%:
+			}
+			#sidebar{
+				width: 36%;
+				float: left;
+				padding: 2%;
+			}
+			footer{
+				clear: left;
+			}
+			.nav-item{
+				display: inline-block;
+				margin-left: 2%;
+				background-color: yellow;
+			}
+			li.nav-item a:link{
+				color: red;
+			}
+			li.nav-item a:visited{
+				color: green;
+			}
+			li.nav-item a:hover{
+				color: white;
+			}
+			li.nav-item a:actve{
+				color: orange;
+			}
+			/*++++++Block Quotes++++++*/
+			blockquote{
+				font-size: 1.5em;
+				font-family: serif;
+				line-height: 1.5em;
+				margin: 4% 0% 4% 6%;
+				background-color: darkgray;
+				padding: 2%;
+				border-left: 10px solid black;
+				color: #eee;
+			}
+			blockquote:before{
+				vertical-align: -.35em;
+				line-height: 0;
+				content: "\201C";
+				font-size: 4em;
+			}
+			.Art{
+				padding: 3%;
+			}
+			
+		</style>
+		
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Working Out</h1>
+			</header>
+			<nav>
+			<ul>
+				<li class="nav-item"><a href="Page2.html">Bodybuilding</a></li>
+				<li class="nav-item"><a href="Page3.html">Powerlifting</a></li>
+				<li class="nav-item"><a href="Page4.html">Weightlifting</a></li>
+				<li class="nav-item"><a href="Page5.html">Strongman</a></li>
+			</ul>
+			</nav>
+			<div id="main-content">
+				<article class="Art">
+					<h2> Exercise </h2>
+					<p>
+						According to <a href="https://en.wikipedia.org/wiki/Exercise">Wikipedia</a>, exercise is a body activity that enhances or maintains physical fitness and overall health and wellness. It is performed for various reasons, including weight loss or maintenance, to aid growth and improve strength, develop muscles and the cardiovascular system, hone athletic skills, improve health, or simply for enjoyment. Many individuals choose to exercise outdoors where they can congregate in groups, socialize, and improve well-being as well as mental health.
+					</p>
+				</article>
+			</div><!--close main div-->
+			<div id="sidebar">
+				<article>
+					<h2> Going to the Gym </h2>
+					<p>
+						In this webpage, we are going to be talking about exercise but specifically in the gym. While there is many different ways and styles to approach the gym, we are going to be talking about the strength aspect of working out. There are 5 main ways people can train strength and one of them can be considered not strength training. Bodybuilding the first one we are going to talk about isnt considered strength training by many. The rest we are going to discuss about in order will be powerlifting, weightlifting, and strongman.
+					</p>
+				</article>
+			</div><!--close sidebar div-->
+			<footer>
+				<p><small>© Thomas Yang Codes</small></p>
+			</footer>
+		</div><!--close wrapper div--->
+	</body>
+</html>

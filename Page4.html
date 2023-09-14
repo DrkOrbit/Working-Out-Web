@@ -1,0 +1,252 @@
+<doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	
+		<title>Multiple Column Web</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+		
+		<style type="text/css">
+			/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+			*/
+
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+				background-color: #093164;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			/*++++++WhiteSpace Styles Here+++++*/
+			
+			#wrapper{
+				width: 65%;
+				margin: auto;
+				padding: 1% 2%;
+				background-color: #FFF881;
+				color: #B4102D;
+				font-family: Open-sans;
+			}
+			article{
+				font-family: lora;
+			}
+			header,footer,nav{
+				font-family: roboto;
+			}
+			nav{
+				text-align:center;
+				padding-bottom: 1%;
+			}
+			h1{
+				font-size:600%;
+				text-align: center;	
+			}
+			h2{
+				font-size:150%;
+			}
+			h1,h2{
+				margin: 2% 0%;
+				font-weight: bold;
+				
+			}
+			p{
+				margin: 2% 0%;
+				letter-spacing: .5px;
+				line-height: 115%;
+			}
+		
+			#main-content{
+				width: 56%;
+				float: left;
+				padding: 2%:
+			}
+			#sidebar{
+				width: 36%;
+				float: left;
+				padding: 2%;
+			}
+			footer{
+				clear: left;
+			}
+			.nav-item{
+				display: inline-block;
+				margin-left: 2%;
+				background-color: yellow;
+			}
+			li.nav-item a:link{
+				color: red;
+			}
+			li.nav-item a:visited{
+				color: green;
+			}
+			li.nav-item a:hover{
+				color: white;
+			}
+			li.nav-item a:actve{
+				color: orange;
+			}
+			/*++++++Block Quotes++++++*/
+			blockquote{
+				font-size: 1.5em;
+				font-family: serif;
+				line-height: 1.5em;
+				margin: 4% 0% 4% 6%;
+				background-color: darkgray;
+				padding: 2%;
+				border-left: 10px solid black;
+				color: #eee;
+			}
+			blockquote:before{
+				vertical-align: -.35em;
+				line-height: 0;
+				content: "\201C";
+				font-size: 4em;
+			}
+			.Art{
+				padding: 3%;
+			}
+			figure{
+				width: 20%;
+				position: relative;
+				top: 10px
+			}
+			figure>img{
+				width:500%;
+			}
+			table,caption{
+				background-color:black;
+				color:Black
+			}
+			thead{
+				background-color:#FFF881;
+			}
+			tfoot{
+				background-color:#FFF881;
+			}
+			tbody{
+				background-color:#FFF881;
+			}
+		</style>
+		
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Weightlifting</h1>
+			</header>
+			<nav>
+			<ul>
+				<li class="nav-item"><a href="index.html">Working Out</a></li>
+				<li class="nav-item"><a href="Page2.html">Bodybuilding</a></li>
+				<li class="nav-item"><a href="Page3.html">Powerlifting</a></li>
+				<li class="nav-item"><a href="Page5.html">Strongman</a></li>
+			</ul>
+			</nav>
+			<div id="main-content">
+				<article class="Art">
+					<h2> What is Weightlifting? </h2>
+					<p>
+						According to <a href="https://en.wikipedia.org/wiki/Olympic_weightlifting">Wikipedia</a>, weightlifting (often known as Olympic weightlifting) is a sport in which athletes compete in lifting a barbell loaded with weight plates from the ground to overhead, with the aim of successfully lifting the heaviest weights. Athletes compete in two specific ways of lifting the barbell overhead. The snatch is a wide-grip lift, in which the weighted barbell is lifted overhead in one motion. The clean and jerk is a combination lift, in which the weight is first taken from the ground to the front of the shoulders (the clean), and then from the shoulders to over the head (the jerk). While other strength sports test limit strength, Olympic-style weightlifting also tests aspects of human ballistic limits (explosive strength): the olympic lifts are executed faster, and with more mobility and a greater range of motion during their execution, than other barbell lifts. The Olympic lifts, and their component lifts (e.g., cleans, squats) and their variations (e.g., power snatch, power clean) are used by elite athletes in other sports to train for both explosive and functional strength.
+					</p>
+					<table width="100%">
+						<thead>
+							<tr>
+								<th colspan="11"/> Weight (kg)</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<td> <strong> Women </strong> </td>
+								<td> <strong> 45 </strong> </td>
+								<td> <strong> 49 </strong> </td>
+								<td> <strong> 55 </strong> </td>
+								<td> <strong> 59 </strong> </td>
+								<td> <strong> 64 </strong> </td>
+								<td> <strong> 71 </strong> </td>
+								<td> <strong> 76 </strong> </td>
+								<td> <strong> 81 </strong> </td>
+								<td> <strong> 87 </strong> </td>
+								<td> <strong> 87+ </strong> </td>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr>
+								<td> <strong> Men </strong> </td>
+								<td> <strong> 55 </strong> </td>
+								<td> <strong> 61 </strong> </td>
+								<td> <strong> 67 </strong> </td>
+								<td> <strong> 73 </strong> </td>
+								<td> <strong> 81 </strong> </td>
+								<td> <strong> 89 </strong> </td>
+								<td> <strong> 96 </strong> </td>
+								<td> <strong> 102 </strong> </td>
+								<td> <strong> 109 </strong> </td>
+								<td> <strong> 109+ </strong> </td>
+							</tr>
+						</tbody>
+					</table>
+					<figure>
+						<img src="https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/gdwgvjhw5qffboe6rj3x"/>
+						<figcaption>
+							<a href="https://en.wikipedia.org/wiki/Lasha_Talakhadze"/>Lasha</a>
+						</figcaption>
+					</figure>
+				</article>
+			</div><!--close main div-->
+			<div id="sidebar">
+				<article>
+					<h2> Weightlifting in Current Day</h2>
+					<p>
+						Just like powerlifting they both aim to achieve strength that is greater than most people. Weightlifting has been around longer than any other lifting and is more popular than powerlifting in terms of views due to it being on the Olympics. Due to weightlifting being a strength sport many people don't participate in it but that isn't the main reason why there is so few people doing it. Powerlifting and weightlifting both focus on strength but powerlifting has way more people doing it compared to weightlifting. You'd think that weightlifting would have more use in the gym due to it being an important part of the summer olympics. The problem is that weightlifting is incredibly dangerous compared to bodybuilding and powerlifting. While powerlifting can still be very dangerous the risk aren't as high compared to weightlifting. Weightlifting also requires strength that is hard and takes time to achieve while requiring immense technical skill to perform the lifts. But thats why its such a spectacle to see it in the Olympics and see the various people like Lu Xiaojun, Shi Zhiyong, and Lasha Talakhadze. Here are the different categories in the weightlifting Olympics.
+					</p>
+				</article>
+			</div><!--close sidebar div-->
+			<footer>
+				<p><small>© Thomas Yang Codes</small></p>
+			</footer>
+		</div><!--close wrapper div--->
+	</body>
+</html>
